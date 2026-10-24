@@ -1,0 +1,66 @@
+body{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;   
+    max-width: 1400px;   
+    justify-content: center;
+    align-items: center;    
+    margin: 0px auto;
+    background-color: #00000063;   
+}
+
+/*--------------------------------------Menu-------------------------------------------*/
+
+.menu ul{
+    background-color: #000000;
+    display: flex;
+    padding: 25px 20px;
+    list-style: none;  /*tirar os pontos*/        
+    max-width: 100%;
+    margin-bottom: 15px;
+    justify-content: center;    /*colocar no centro*/ 
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 40px;
+    font-size: 25px;
+}
+
+.menu ul li a:hover, .menu ul li.active a{
+    text-decoration: underline;
+}
+
+/*--------------------------------------Form-------------------------------------------*/
+
+form{
+    background-color: #5858583d;
+    padding: 20px 50px;
+}
+
+.submit{
+    font-size: 25px;
+    border-radius: 10px;    
+    padding: 10px 20px;
+    width: 100%;
+}
+.submit:hover{
+    text-decoration: underline;
+}
+
+input{
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+table tr th{
+    padding: 20px 30px;
+}
+
+table{
+
+    width: 1150px;
+}
+.legenda{
+    text-decoration: underline;    
+}
